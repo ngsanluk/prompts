@@ -33,8 +33,10 @@ This tutorial aims to show how generative AI tools can help in teaching material
 `generative 5 fill in the blanks questions about present continue tense for secondary form one students. each question 4 options. specify the answer at the end of each question.`
 
 `generate a photo of ancient chinese city. show busy market full of shops and people.`
+![](./images/chinese-city.png)
 
 `generate a chinese ink paiting of ancient chinese city. show busy market full of shops and people.`
+![](./images/chinese-city-ink.png)
 
 `generate a chinese ink paiting of ancient chinese city next to a river. show busy market full of shops and people.`
 ![](./images/chinese-city-next-to-river.png)
