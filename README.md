@@ -1,0 +1,2 @@
+# prompts
+Writing effective prompts
