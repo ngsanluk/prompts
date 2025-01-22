@@ -10,7 +10,7 @@ This tutorial aims to show how generative AI tools can help in teaching material
 
 - `generate 5 short bullet points to introduce cloud computing to non-tech students`
 
-- `list for advantages of cloud computing`
+- `list 4 advantages of cloud computing`
 
 - `rewrite it for absolute beginner`
 
