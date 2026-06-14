@@ -2,43 +2,228 @@
 
 Write effective prompts to interact with generative AI tools. This tutorial uses Microsoft Copilot as major tool. But the ideas of writing effective prompts are applicable to most AI chatbot.
 
-This tutorial aims to show how generative AI tools can help in teaching materials preparation. But the ideas can also used to help general work productivities.
+This tutorial aims to show how generative AI tools can help in teaching materials preparation. But the ideas can also be used to help general work productivities.
 
-## Teaching Material Generation
+## Example Prompts
 
-- `generate 10 slides to introduce cloud computing to non-tech students`
+Prompts are the instructions you give to the AI to generate the desired output. Here are some example prompts for different purposes:
 
-- `generate 5 short bullet points to introduce cloud computing to non-tech students`
+```
+generate 10 slides to introduce cloud computing to non-tech students
+```
 
-- `list 4 advantages of cloud computing`
+```
+generate 5 short bullet points to introduce cloud computing to non-tech students
+```
 
-- `rewrite it for absolute beginner`
+```
+list 4 advantages of cloud computing
+```
 
-- `convert to chinese`
+```
+rewrite it for absolute beginner
+```
 
-- `convert to traditional chinese`
+```
+convert to chinese
+```
 
-- `generate 5 multiple choice questions with four options about cloud computing fundamental. specify the correct answer at the end of each question.`
+```
+convert to traditional chinese
+```
 
-- `generate 5 true of false about cloud computing fundamental. specify the correct answer at the end of each question.`
+```
+generate 5 multiple choice questions with four options about cloud computing fundamental. specify the correct answer at the end of each question.
+```
 
-- `generate 5 fill in the blank questions about  cloud computing fundamental. specify the correct answer at the end of each question.`
+```
+generate 5 true or false questions about cloud computing fundamental. specify the correct answer at the end of each question.
+```
 
-- `create a case study for non-it students to discuss the pros and cons of cloud computing. provide some angles for students to start argueing`
+```
+generate 5 fill in the blank questions about cloud computing fundamental. specify the correct answer at the end of each question.
+```
 
-- `5題關於python編程的選擇題，目標為入門班學生，每題4個選項，將正確答案置於最後`
+```
+create a case study for non-IT students to discuss the pros and cons of cloud computing. provide some angles for students to start argueing
+```
 
-- `5題關於python looping的選擇題，目標為入門班學生，每題4個選項，將正確答案置於最後`
+```
+5題關於python編程的選擇題，目標為入門班學生，每題4個選項，將正確答案置於最後
+```
 
-- `generative 5 fill in the blanks questions about present continue tense for secondary form one students. each question 4 options. specify the answer at the end of each question.`
+```
+5題關於python looping的選擇題，目標為入門班學生，每題4個選項，將正確答案置於最後
+```
 
-## Photo Generation
+```
+generate 5 fill in the blank questions about present continue tense for secondary form one students. each question 4 options. specify the answer at the end of each question.
+```
 
-`generate a photo of ancient chinese city. show busy market full of shops and people.`
+# Image Generation
+
+```
+generate a photo of ancient chinese city. show busy market full of shops and people.
+```
+
 ![](./images/chinese-city.png)
 
-`generate a chinese ink paiting of ancient chinese city. show busy market full of shops and people.`
+---
+
+```
+generate a chinese ink paiting of ancient chinese city. show busy market full of shops and people.
+```
+
+
 ![](./images/chinese-city-ink.png)
 
-`generate a chinese ink paiting of ancient chinese city next to a river. show busy market full of shops and people.`
+---
+
+```
+generate a chinese ink paiting of ancient chinese city next to a river. show busy market full of shops and people.
+```
+
 ![](./images/chinese-city-next-to-river.png)
+
+---
+
+# Mastering RICE FACT Effective Prompting
+
+RICE FACT is a useful framework to help you structure your prompts effectively when using AI tools. It stands for Role, Instruction, Context, Example, Format, Action, Constraint, and Tone. By incorporating these components into your prompts, you can guide the AI to generate more accurate and relevant responses.
+
+There are other prompting frameworks such as **ICIO** (Instruction, Context, Input, Output), **SCQA** (Situation, Complication, Question, Answer) and **STAR** (Situation, Task, Action, Result), they all have their own advantages and disadvantages. RICE FACT is more comprehensive and flexible, allowing you to include various elements in your prompts to achieve better results.
+
+**Beginner Pitfall**: AI beiginner users tend to use simple Instruction-only prompts, which often lead to vague and irrelevant responses. By adding more prompt components such as Role, Context, Example, Format, Action, Constraint, and Tone, you can significantly improve the quality of the AI's responses.
+
+![RICE FACT](./images/rice-fact.jpg)
+
+**Tips 1**: You can just click the copy button to replicate the prompt in your AI ssistant. It's OKAY to include the RICE FACT tags in your prompt.  
+**Tips 2**: In your furture prompting, You DON'T actually have to specifically add these tags in your prompts. They are just there to help you better understand the prompt structure.  
+**Tips 3**: It's NOT common to include all RICE FACT components in a single prompt.  
+**Tips 4**: In some articles, A is referred as Action while some other articles refer to it as Audience. You can choose either one depending on the context of your prompt.
+
+**Instrustion** only
+
+```
+Role        →
+Instruction → Explain what GenAI is.
+Context     →
+Example     →
+Format      →
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Format**
+
+```
+Role        →
+Instruction → Explain what GenAI is.
+Context     →
+Example     →
+Format      → Use one sentence.
+Action      →
+Constraint  →
+Constraint  →
+```
+
+---
+
+**Role** + **Instruction** + **Format**
+
+```
+
+Role        → You are a secondary teacher.
+Instruction → Explain what GenAI is.
+Context     →
+Example     →
+Format      → Use one sentence.
+Action      →
+Constraint  →
+Tone        →
+
+```
+
+---
+
+**Role** + **Instruction** + **Format**
+
+```
+
+Role        → You are a kindergarten teacher.
+Instruction → Explain what GenAI is.
+Context     →
+Example     →
+Format      → Use one sentence.
+Action      →
+Constraint  →
+Tone        →
+
+```
+
+---
+
+**Role** + **Instruction** + **Context**
+
+```
+
+Role        → You are a tech trainer.
+Instruction → Explain what GenAI is.
+Context     → The target audience are non-technical executives.
+Example     →
+Format      →
+Action      →
+Constraint  →
+Tone        →
+
+```
+
+---
+
+**Instruction** + **Format**
+
+```
+Role        →
+Instruction → Explain what GenAI is.
+Context     →
+Example     →
+Format      → Use three bullet points.
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
+
+**Instruction** + **Format** + **Constraint**
+
+```
+Role        →
+Instruction → Explain what GenAI is.
+Context     →
+Example     →
+Format      → Use three bullet points.
+Action      →
+Constraint  → Each bullet points not more than 15 words.
+Tone        →
+```
+
+---
+
+**Instruction** + **Example**
+
+```
+Role        →
+Instruction → Generate 10 dummy customer records as below
+Context     →
+Example     → CustID, CustName, Email, Mobile, Address
+Format      →
+Action      →
+Constraint  →
+Tone        →
+```
+
+---
