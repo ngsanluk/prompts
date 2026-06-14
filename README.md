@@ -1,5 +1,7 @@
 # Writing Effective Prompts
 
+![](./images/chinese-city-next-to-river.png)
+
 Write effective prompts to interact with generative AI tools. This tutorial uses Microsoft Copilot as major tool. But the ideas of writing effective prompts are applicable to most AI chatbot.
 
 This tutorial aims to show how generative AI tools can help in teaching materials preparation. But the ideas can also be used to help general work productivities.
@@ -73,7 +75,6 @@ generate a photo of ancient chinese city. show busy market full of shops and peo
 ```
 generate a chinese ink paiting of ancient chinese city. show busy market full of shops and people.
 ```
-
 
 ![](./images/chinese-city-ink.png)
 
