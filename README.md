@@ -9,26 +9,25 @@ generate a chinese ink paiting of ancient chinese city next to a river. show bus
 
 # What is Prompting?
 
-Prompts are the instructions you give to the AI to generate the desired output. Here are some example prompts for different purposes:
+Prompts are the instructions you give to the AI to generate the desired output.
 
-Write effective prompts to interact with generative AI tools. This tutorial uses Microsoft Copilot as major tool. But the ideas of writing effective prompts are applicable to most AI chatbot.
-
-This tutorial aims to show how generative AI tools can help in teaching materials preparation. But the ideas can also be used to help general work productivities.
+**Beginner Prompting Pitfall**.  
+AI beiginner users tend to use simple Instruction-only prompts, which often lead to vague and irrelevant responses. By adding more prompt components such as Role, Context, Example, Format, Action, Constraint, and Tone, you can significantly improve the quality of the AI's responses.
 
 # Mastering RICE FACT Effective Prompting
 
-RICE FACT is a useful framework to help you structure your prompts effectively when using AI tools. It stands for Role, Instruction, Context, Example, Format, Action, Constraint, and Tone. By incorporating these components into your prompts, you can guide the AI to generate more accurate and relevant responses.
+RICE FACT is a useful framework to help you structure your prompts effectively when using AI tools. **RICE FACT** stands for Role, Instruction, Context, Example, Format, Action, Constraint, and Tone. By incorporating these components into your prompts, you can guide the AI to generate more accurate and relevant responses.
+
+## Other Popular Prompting Frameworks
 
 There are other prompting frameworks such as **ICIO** (Instruction, Context, Input, Output), **SCQA** (Situation, Complication, Question, Answer) and **STAR** (Situation, Task, Action, Result), they all have their own advantages and disadvantages. RICE FACT is more comprehensive and flexible, allowing you to include various elements in your prompts to achieve better results.
-
-**Beginner Pitfall**: AI beiginner users tend to use simple Instruction-only prompts, which often lead to vague and irrelevant responses. By adding more prompt components such as Role, Context, Example, Format, Action, Constraint, and Tone, you can significantly improve the quality of the AI's responses.
 
 ![RICE FACT](./images/rice-fact.jpg)
 
 **Tips 1**: You can just click the copy button to replicate the prompt in your AI ssistant. It's OKAY to include the RICE FACT tags in your prompt.  
-**Tips 2**: In your furture prompting, You DON'T actually have to specifically add these tags in your prompts. They are just there to help you better understand the prompt structure.  
-**Tips 3**: It's NOT common to include all RICE FACT components in a single prompt.  
-**Tips 4**: In some articles, A is referred as Action while some other articles refer to it as Audience. You can choose either one depending on the context of your prompt.
+**Tips 2**: In your furture prompting, You DON'T actually have to specifically add these component tags in your prompts. They are just there to help you better understand the prompt structure.  
+**Tips 3**: One seldom includes all RICE FACT components in a single prompt.  
+**Tips 4**: In some articles, **A** is referred as **Action** while some other articles refer to it as **Audience**. You can choose either one depending on the context of your prompt.
 
 **Instrustion** only
 
@@ -156,7 +155,7 @@ Tone        →
 
 ---
 
-# Some Example Prompts
+# Sample Prompts For Text Generation
 
 ```
 generate 10 slides to introduce cloud computing to non-tech students
@@ -183,40 +182,18 @@ convert to traditional chinese
 ```
 
 ```
-generate 5 multiple choice questions with four options about cloud computing fundamental. specify the correct answer at the end of each question.
-```
-
-```
-generate 5 true or false questions about cloud computing fundamental. specify the correct answer at the end of each question.
-```
-
-```
-generate 5 fill in the blank questions about cloud computing fundamental. specify the correct answer at the end of each question.
-```
-
-```
-create a case study for non-IT students to discuss the pros and cons of cloud computing. provide some angles for students to start argueing
-```
-
-```
 5題關於python編程的選擇題，目標為入門班學生，每題4個選項，將正確答案置於最後
 ```
 
-```
-5題關於python looping的選擇題，目標為入門班學生，每題4個選項，將正確答案置於最後
-```
-
-```
-generate 5 fill in the blank questions about present continue tense for secondary form one students. each question 4 options. specify the answer at the end of each question.
-```
-
-# Image Generation
+# Sample Prompts For Image Generation
 
 ```
 generate a photo of ancient chinese city. show busy market full of shops and people.
 ```
 
 ![](./images/chinese-city.png)
+
+**Note**:Look carefully at the above image. You will notice AI generated images are not perfect.
 
 ---
 
@@ -235,3 +212,88 @@ generate a chinese ink paiting of ancient chinese city next to a river. show bus
 ![](./images/chinese-city-next-to-river.png)
 
 ---
+
+# Fashion Concepts Generation
+
+![](https://www.newarc.ai/images/og-image.jpg)
+
+**Create your own fashion product from your sketch!**
+
+- Go to [newarc](https://www.newarc.ai/).
+- Upload a t-shirt sketch or any other fashion design sketch
+- Let newarc convert the sketch to a real fashion product.
+- You can also add your own logo to the design.
+
+---
+
+You can also use Gemini or other AI tools that are capable of image generation to achieve similar results.
+
+- Upload your sketch and logo in Gemini
+- Add the following prompt to AI chatbot.
+
+```
+Convert the uploaded sketch to a real t-shirt.  Make it in black color.  Add the uploaded logo to upper right chest.
+```
+
+---
+
+# Sample Prompts for Video Generation
+
+![](./images/video-gen.jpg)
+
+Choose a AI tools that is capable to generate video (e.g. Qwen, Yeri or Gememni). Use the following prompts to generate a video.
+
+```
+Hong Kong Victoria Harbour subset time lapse video.  Show the busy traffic on the road and the ferries on the water.  Show the sunset and the night view of the city.
+```
+
+---
+
+## Image-to-Video Generation
+
+You can upload an image to AI as reference and instruct AI to generate a video based on the image.
+
+![](https://yeri.ai/_next/image?url=https%3A%2F%2Fimgcdn.stablediffusionweb.com%2Fimages%2Fhome-model-showcase%2Fvideo-posters%2Fseedance-1-5-pro-card.webp&w=3840&q=75)
+
+```
+Make create a 5 seconds video based on the uploaded image.  Make the lady dance in slow motion.
+```
+
+---
+
+**Another Example**:
+
+```
+Convert the uploaded image to a 5 seconds video.  Show the busy traffic on the road and the ferries on the water.  Show the sunset and the night view of the city.
+```
+
+---
+
+# Sample Prompts for Music Generation
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP-BPfOfehZfgHdp_FxMGL2louPEMBcWkqQPvaj_CXSlZ6J8WJArYBPqBY&s=10)
+
+Suno is a powerful AI music generation tool that allows users to create music from text prompts. Suno can generate music in various genres and styles, making it a versatile tool for music creation.
+
+Let's have some fun at [https://suno.com/](https://suno.com/)
+
+Use of the following prompts in Suno or other music generation tools.
+
+```
+A relaxed 90s-style lo-fi hip-hop beat. Features a dusty, crackling vinyl effect, a smooth and jazzy electric piano chord progression, and a laid-back, mellow drum groove. Perfect for studying or relaxing. Tempo: 75 BPM. Mood: nostalgic, cozy, and calm.
+```
+
+---
+
+```
+一首用于科幻电影的、气势磅礴的交响乐曲。以安静、神秘的氛围合成器和舒缓的弦乐拉开序幕，随后逐渐增强，加入厚重的铜管乐、激昂的打击乐，最终推向一个充满震撼与敬畏感的史诗级高潮。节奏：由慢至快的渐强。情绪：惊叹、英雄主义、宏大。
+```
+
+# Speech Synthesizing
+
+![](https://www.narakeet.com/assets/howto/20230403-tts-announcements-poster-x304.png)
+
+AI speech synthesis tools allow users to generate realistic and expressive speech from text prompts. These tools can generate speech in various languages and accents, making it a versatile tool for voiceover and narration.
+
+- [ElevenLabs](https://elevenlabs.io) - AI-powered text-to-speech platform.
+- [narakeet](https://www.narakeet.com/languages/chinese-text-to-speech/) - Easily Create Voiceovers Using Realistic Text to Speech
